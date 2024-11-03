@@ -8,7 +8,7 @@ The command `gitsimple` can be used to perform Git operations. It can only be ex
 
 ### Commands
 
-- `gitsimple pull`: Executes `git pull --rebase`
+- `gitsimple pull`: Executes `git pull`
 - `gitsimple push`: Executes `git push`
 
 
