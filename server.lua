@@ -1,8 +1,8 @@
 RegisterCommand('gitsimple', function(source, args, rawCommand)
     if source == 0 then  -- Only allow execution from the console, not in-game
         if args[1] == 'pull' then
-            print("Executing 'git pull --rebase'...")
-            local result = os.execute('git pull --rebase')
+            print("Executing 'git pull'...")
+            local result = os.execute('git pull')
             if result then
                 print("Git pull successful.")
             else
