@@ -1,4 +1,4 @@
-# GitSimple Command
+# GitSimple Fivem
 
 This Lua script provides a simple command to execute basic Git operations (`pull` and `push`) from the server console.
 
