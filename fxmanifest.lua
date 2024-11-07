@@ -7,5 +7,6 @@ description 'A simple resource to pull Git changes with rebase'
 version '1.2.0'
 
 server_scripts {
+    "config.lua",
     "gitCommand.lua",
     'server.lua' }
