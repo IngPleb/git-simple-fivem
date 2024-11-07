@@ -1,4 +1,4 @@
-for name in GroupCommandNames do
+for name in Config.GroupCommandNames do
     RegisterCommand(name, function(source, args, rawCommand)
         -- Check console
         if source ~= 0 then
