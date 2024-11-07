@@ -1,4 +1,4 @@
-RegisterCommand('gitsimple', function(source, args, rawCommand)
+RegisterCommand('simplegit', function(source, args, rawCommand)
     -- Check console
     if source ~= 0 then
         print("This command can only be run from the server console.")
@@ -11,6 +11,6 @@ RegisterCommand('gitsimple', function(source, args, rawCommand)
     elseif args[1] == 'push' then
         gitCommand:push()
     else
-        print("Usage: gitsimple pull [--rebase]|push")
+        print("Usage: simplegit pull [--rebase]|push")
     end
 end)
