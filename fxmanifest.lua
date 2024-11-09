@@ -4,7 +4,7 @@ server_only 'yes'
 
 author 'IngPleb'
 description 'A simple resource to pull Git changes with rebase'
-version '1.2.0'
+version '1.3.0'
 
 server_scripts {
     "config.lua",
